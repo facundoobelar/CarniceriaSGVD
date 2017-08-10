@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace CarniceriaSGVD.MODELO
 {
-    class LineaPedido
+    class PrecioCompra
     {
-        public float total { get; set; }
-        public int cantProductos { get; set; }
-        public Producto iProducto { get; set; }
+        public float montoCompra { get; set; }
+        public DateTime fFin { get; set; }
+        public DateTime fInicio { get; set; }
+
     }
 }

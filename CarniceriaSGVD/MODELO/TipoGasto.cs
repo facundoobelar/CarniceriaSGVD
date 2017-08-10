@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace CarniceriaSGVD.MODELO
 {
-    public class PedidoAProveedor:Pedido
+    class TipoGasto
     {
-      private IList<GastoCarniceria> listaGastoCarniceria { get; set; }
+        public string nombre { get; set; }
     }
-
-
 }

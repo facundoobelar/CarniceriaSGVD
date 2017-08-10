@@ -9,12 +9,14 @@ namespace CarniceriaSGVD.MODELO
 {
     public class Pedido
     {
+        public int codigoPedidoId { get; set; }
         public DateTime fecha { get; set; }
         public float saldo { get; set; }
         public float total { get; set; }
+        private IList<LineaPedido> listaLineaPedido { get; set; }
         public bool estado { get; set; }
-       public IList<LineaPedido> listaLinea { get; set; }
- 
+
+       
 
         public float pagarMonto(float pMonto)
         {

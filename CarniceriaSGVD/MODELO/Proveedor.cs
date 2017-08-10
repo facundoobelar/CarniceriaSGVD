@@ -10,10 +10,10 @@ namespace CarniceriaSGVD.MODELO
     {
         public int codigoId { get; set; }
         public IList<PedidoAProveedor> listaPedido { get; set; }
+        public IList<Producto> listaProductos { get; set; }
 
 
- 
-        
+
 
     }
 }
