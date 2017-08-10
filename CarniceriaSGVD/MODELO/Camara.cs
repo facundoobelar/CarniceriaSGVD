@@ -15,13 +15,13 @@ namespace CarniceriaSGVD.MODELO
         public IList<Producto> listaProductoCamara { get; set; }
         public IList<Caja> listaCajas { get; set; }
 
-        public Camara BuscarCamara(int pIdCam)
+     /*   public Camara BuscarCamara(int pIdCam)
         {
             Camara iCamara;
             //falta algo aca para el get
             iCamara = this.Get(pIdCam);
                 return iCamara;
-        }
+        }*/
 
 
     }

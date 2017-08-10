@@ -11,7 +11,7 @@ namespace CarniceriaSGVD.MODELO
         public int idCuentaId { get; set; }
         public float saldo { get; set; }
         public IList<Pago> listaPagosClientes { get; set; }
-        public Cliente iCliente { get; set; };
+        public Cliente iCliente { get; set; }
 
         public void pagarCuenta(float pMonto)
         {
