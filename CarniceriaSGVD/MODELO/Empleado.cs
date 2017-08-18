@@ -8,7 +8,7 @@ namespace CarniceriaSGVD.MODELO
 {
     class Empleado:Persona
     {
-        public int codigoId { get; set; }
+         public int codigoId { get; set; }
         public TipoEmpleado iTipoEmpleado { get; set; }
         public IList<Asistencia> listaAsistencia { get; set; }
         public IList<Ingreso_Egreso> listaIngresoEgreso { get; set; }
