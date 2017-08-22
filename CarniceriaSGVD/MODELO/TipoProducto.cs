@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarniceriaSGVD.MODELO
 {
-    class TipoProducto
+   public class TipoProducto
     {
         public int codigoProductoId { get; set; }
     public string nombre { get; set; }

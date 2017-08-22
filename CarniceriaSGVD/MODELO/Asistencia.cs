@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace CarniceriaSGVD.MODELO
 {
-    class Asistencia
+   public class Asistencia
     {
-        public DateTime fecha { get; set; }
-        public DateTime horaIngreso { get; set; }
-        public DateTime horaSalida { get; set; }
+        public int AsistenciaID { get; set; }
+        public DateTime Fecha { get; set; }
+        public DateTime HoraIngreso { get; set; }
+        public DateTime HoraSalida { get; set; }
+        public int EmpleadoID { get; set; }
+        public Empleado Empleado { get; set; }
+
 
     }
 }

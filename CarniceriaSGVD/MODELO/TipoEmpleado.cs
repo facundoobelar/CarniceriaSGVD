@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CarniceriaSGVD.MODELO
 {
-    class TipoEmpleado
+    public enum TipoEmpleado
     {
-        public string descripcion { get; set; }
+        Cajero, Vendedor, Administrador, Carnicero
     }
 }

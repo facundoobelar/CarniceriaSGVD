@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace CarniceriaSGVD.MODELO
 {
-    class AperturaCaja
+   public class AperturaCaja
     {
-        public float montoFinal { get; set; }
-        public float montoInicial { get; set; }
-        public DateTime fecha { get; set; }
-        public IList<GastoCarniceria> listaGastos { get; set; }
-        public IList<Venta> listaVentas { get; set; }
-        public IList<Pago> listaPagos { get; set; }
+        public int AperturaCajaID { get; set; }
+        public float MontoFinal { get; set; }
+        public float MontoInicial { get; set; }
+        public DateTime Fecha { get; set; }
+        public IList<GastoCarniceria> ListaGastos { get; set; }
+        public IList<Venta> ListaVentas { get; set; }
+        public IList<Pago> ListaPagos { get; set; }
     }
 }

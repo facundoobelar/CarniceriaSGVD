@@ -8,7 +8,7 @@ using CarniceriaSGVD.MODELO;
 
 namespace CarniceriaSGVD.MODELO
 {
-    class Venta
+   public class Venta
     {
         
         public DateTime fecha { get; set; }

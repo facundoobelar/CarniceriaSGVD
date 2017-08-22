@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarniceriaSGVD.MODELO
 {
-    class Pago
+   public class Pago
     {
         public IList<Venta> listaPagosVentas { get; set; }
         public float montoTotal { get; set; }

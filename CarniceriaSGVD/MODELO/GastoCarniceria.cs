@@ -6,12 +6,19 @@ using System.Threading.Tasks;
 
 namespace CarniceriaSGVD.MODELO
 {
-    class GastoCarniceria
+   public class GastoCarniceria
     {
-        public int idGastoId { get; set; }
-        public float montoTotal { get; set; }
-        public string descripcion { get; set; }
-        public DateTime fecha { get; set; }
-        public TipoGasto iGasto { get; set; }
+        public int GastoCarniceriaId { get; set; }
+        public float MontoTotal { get; set; }
+        public string Descripcion { get; set; }
+        public DateTime Fecha { get; set; }
+        public TipoGasto Gasto { get; set; }
+        public int AperturaCajaID { get; set; }
+        public AperturaCaja AperturaCaja { get; set; }
+        public int PedidoAProveedorID { get; set; }
+        public PedidoAProveedor PedidoAProveedor { get; set; }
+        public int TipoGastoID { get; set; }
+        public TipoGasto TipoGasto { get; set; }
+
     }
 }

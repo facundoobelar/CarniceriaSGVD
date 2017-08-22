@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace CarniceriaSGVD.MODELO
 {
-    class Cliente:Persona
+   public class Cliente:Persona
     {
         public int codigoId { get; set; }
-        public IList<Cliente> listaPedidosCliente { get; set; }
+        public CtaCteCliente  CtaCte { get; set; }
+        public virtual IList<Cliente> listaPedidosCliente { get; set; }
 
        
 

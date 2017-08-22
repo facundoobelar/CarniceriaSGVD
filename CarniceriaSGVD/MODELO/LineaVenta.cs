@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarniceriaSGVD.MODELO
 {
-    class LineaVenta
+   public class LineaVenta
     {
         public float cantidadProd { get; set; }
         public float valorLinea { get; set; }

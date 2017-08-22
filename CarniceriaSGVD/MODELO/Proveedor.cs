@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarniceriaSGVD.MODELO
 {
-    class Proveedor:Persona
+   public class Proveedor:Persona
     {
         public int codigoId { get; set; }
         public IList<PedidoAProveedor> listaPedido { get; set; }

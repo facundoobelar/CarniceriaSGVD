@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace CarniceriaSGVD.MODELO
 {
-    class Caja
+   public class Caja
     {
-        public int idCajaId { get; set; }
-        public int idCamara { get; set; }
+        public int CajaId { get; set; }
+        public int CamaraID { get; set; }
+        public Camara Camara { get; set; }
         public IList<AperturaCaja> listaAperturaCaja { get; set; }
 
-        public AperturaCaja IniciarAperturaCaja (Caja pidCaja)
+        public void IniciarAperturaCaja ()
         {
-             AperturaCaja iAperturaCaja = new AperturaCaja();
-            return iAperturaCaja;
+            
         }
 
         

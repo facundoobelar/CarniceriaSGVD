@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace CarniceriaSGVD.MODELO
 {
-    class Camara
+   public class Camara
     {
-        public int idCamaraId { get; set; }
-        public string nombre { get; set; }
-        public IList<Ingreso_Egreso> listaIngreso { get; set; }
-        public IList<Ingreso_Egreso> listaEgreso { get; set; }
-        public IList<Producto> listaProductoCamara { get; set; }
-        public IList<Caja> listaCajas { get; set; }
+        public int CamaraID { get; set; }
+        public string Nombre { get; set; }
+        public IList<Ingreso_Egreso> ListaIngreso { get; set; }
+        public IList<Ingreso_Egreso> ListaEgreso { get; set; }
+        public IList<Producto> ListaProductoCamara { get; set; }
+        //public IList<Caja> ListaCajas { get; set; }
 
      /*   public Camara BuscarCamara(int pIdCam)
         {

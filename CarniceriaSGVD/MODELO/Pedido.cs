@@ -14,10 +14,11 @@ namespace CarniceriaSGVD.MODELO
         public float saldo { get; set; }
         public float total { get; set; }
         private IList<LineaPedido> listaLineaPedido { get; set; }
-        public bool estado { get; set; }
 
-       
 
+
+        //public bool estado { get; set; }
+        
         public float pagarMonto(float pMonto)
         {
            return this.saldo = this.total - pMonto;

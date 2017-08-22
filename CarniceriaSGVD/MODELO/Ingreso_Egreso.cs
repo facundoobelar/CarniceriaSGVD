@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CarniceriaSGVD.MODELO
 {
-    class Ingreso_Egreso
-    {   public int idIngresoId { get; set; }
+   public class Ingreso_Egreso
+    {   public int ingresoID { get; set; }
         public DateTime fecha { get; set; }
         public string unidadMedida { get; set; }
         public float cantidadPeso { get; set; }

@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace CarniceriaSGVD.MODELO
 {
-    class CtaCteCliente
+    public class CtaCteCliente
     {
-        public int idCuentaId { get; set; }
-        public float saldo { get; set; }
-        public IList<Pago> listaPagosClientes { get; set; }
-        public Cliente iCliente { get; set; }
+        public int CuentaID { get; set; }
+        public float Saldo { get; set; }
+        public virtual IList<Pago>  ListaPagosClientes { get; set; }
+        public Cliente Cliente { get; set; }
 
         public void pagarCuenta(float pMonto)
         {
-             this.saldo = this.saldo - pMonto;
+             this.Saldo = this.Saldo - pMonto;
         }
     }
 }
